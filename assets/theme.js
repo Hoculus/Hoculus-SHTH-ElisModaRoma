@@ -13261,7 +13261,7 @@ headerOverlay(headerOverlayContainer); // Init back to top button
 backToTop(); // Make it easy to see exactly what theme version
 // this is by commit SHA
 
-window.SHA = "e9a6b4d725";
+window.SHA = "27631c9a41";
 
 if (!sessionStorage.getItem("flu_stat_recorded") && !((_window$Shopify = window.Shopify) !== null && _window$Shopify !== void 0 && _window$Shopify.designMode)) {
   var _window$Shopify2, _window$Shopify3, _window$Shopify3$them;
@@ -13281,4 +13281,12 @@ if (!sessionStorage.getItem("flu_stat_recorded") && !((_window$Shopify = window.
   if (window.sessionStorage) {
     sessionStorage.setItem("flu_stat_recorded", "true");
   }
-}
+} // Note: we can't update the class where it's added (theme-setup.liquid) because it loads before window.Shopify.visualPreviewMode, preventing any logic checks from properly applying
+
+
+window.addEventListener("load", function () {
+  // Block animations within the visual preview mode only
+  if (window.Shopify.visualPreviewMode) {
+    document.documentElement.classList.remove("do-anim");
+  }
+});

@@ -44,6 +44,15 @@
             "show_untracked_quantity": false
           }
         },
+        "b404a951-0b31-46f1-8dde-c216eeeb3601": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p>{{ product.metafields.custom.vestibilit_.value }}<\/p>",
+            "column_placement": "right"
+          }
+        },
         "521fb7ce-2139-4b2d-9586-f3d74175ccce": {
           "type": "variant_picker",
           "settings": {
@@ -67,6 +76,14 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
+          }
+        },
+        "258a1955-cb47-4722-a956-98b4ef1ca391": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p>Non trovi la taglia che cerchi? Scrivici al <a href=\"https:\/\/wa.me\/3395721830\" target=\"_blank\" title=\"https:\/\/wa.me\/3395721830\">3395721830<\/a><\/p>",
+            "column_placement": "right"
           }
         },
         "product_callouts-1": {
@@ -158,9 +175,11 @@
         "product_header",
         "product_callouts_mini",
         "inventory_counter",
+        "b404a951-0b31-46f1-8dde-c216eeeb3601",
         "521fb7ce-2139-4b2d-9586-f3d74175ccce",
         "quantity_selector",
         "buy_buttons",
+        "258a1955-cb47-4722-a956-98b4ef1ca391",
         "product_callouts-1",
         "product_callouts-2",
         "share",
@@ -185,25 +204,24 @@
     },
     "image-hero": {
       "type": "image-hero",
-      "disabled": true,
       "blocks": {
         "block-0": {
           "type": "accent",
           "settings": {
-            "accent": "Accent"
+            "accent": "Elis Roma"
           }
         },
         "block-1": {
           "type": "heading",
           "settings": {
-            "title": "Image hero",
+            "title": "Dal 2001 a Roma",
             "heading_font_class": "fs-heading-display-2"
           }
         },
         "block-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Use these sections to promote a particular feature with editorial photography.<\/p>",
+            "text": "<p>Dal 2001 proponiamo brand di Pronto Moda in Via Pietro Maffi 192 a Roma<\/p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -213,6 +231,7 @@
         "block-1",
         "block-2"
       ],
+      "disabled": true,
       "settings": {
         "image_aspect": "custom",
         "desktop_height": 70,
@@ -232,158 +251,83 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "image-with-text-1": {
-      "type": "image-with-text",
-      "disabled": true,
+    "2746e120-6cec-4be4-b18a-335c91775774": {
+      "type": "quote",
       "blocks": {
-        "block-0": {
-          "type": "heading",
+        "template--19274104832336__2746e120-6cec-4be4-b18a-335c91775774-quote-2": {
+          "type": "quote",
           "settings": {
-            "title": "Image with text",
-            "heading_font_class": "fs-heading-display-3"
+            "quote": "<p><em>\"Shop online eccezionale, fotografie fedeli ai capi visti dal vivo e molto ben fatte le descrizioni. Spedizione veloce, un paio di giorni, ma c'è anche la possibilità di ordinare e ritirare in negozio gratuitamente.\"<\/em><\/p>",
+            "title": "C G (CG)",
+            "font_size": "small"
           }
         },
-        "block-1": {
-          "type": "text",
+        "template--19274104832336__2746e120-6cec-4be4-b18a-335c91775774-quote-1": {
+          "type": "quote",
           "settings": {
-            "text": "<p>Use these sections to promote a particular feature with editorial photography<\/p>",
-            "text_font_class": "fs-body-100"
+            "quote": "<p><em>\"OTTIMI PRODOTTI ... OTTIMI PREZZI .. AMBIENTE PULITO PERSONALE CORTESE.. GRAZIE TORNERÒ\"<\/em><\/p>",
+            "title": "Valentina Petrucci",
+            "font_size": "medium"
+          }
+        },
+        "9b1b3f1f-7c95-468c-8010-d36786453d83": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p><em>\"Ho fatto un ordine online ieri ed oggi un' addetta al magazzino mi chiama per sostituire un vestito che avevo ordinato poiché presentava un difetto. Che dire... disponibilità e gentilezza al 100%, questa ragazza di nome Lilly ha passato 30 minuti con me tra messaggi e telefonate per cercare di soddisfarmi nell'acquisto del capo sostitutivo. Un angelo. Grazie per tutto.\"<\/em><\/p>",
+            "title": "Veronica Di Lino Veronica",
+            "font_size": "small"
+          }
+        },
+        "e838374b-0ea6-4c11-909c-7879d4dd0e2b": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p><em>\"Acquistato online due stivali: capita di rado di essere trattati così bene. Complimenti...e per la cronaca gli stivali sono bellissimi. Farò sicuramente altri acquisti. ..\"<\/em><\/p>",
+            "title": "Michela Bernini",
+            "font_size": "small"
+          }
+        },
+        "6c177423-56e8-4827-a997-c81594c79ed6": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p><em>\"Elis Moda é una certezza, una volta entrati é impossibile uscire a mani vuote!\"<br\/><\/em><\/p>",
+            "title": "Maria Chiara",
+            "font_size": "small"
+          }
+        },
+        "0e65ad8e-ff62-4877-a246-d61ed6018127": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p><em>\"Ho comprato un paio di scarpe a dir poco bellissime! La consegna è arrivata in un solo giorno. Prezzi super e qualità ottima <\/em>❤<em>\"<\/em><\/p>",
+            "title": "Flora Cofano",
+            "font_size": "small"
+          }
+        },
+        "5182bb34-afbc-447f-9006-3de18026915a": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p><em>\"Elis moda una certezza che quello che desideri trovi. Personale attento alle tue esigenze e a quello che cerchi. Chi entra in questo negozio sicuro acquista perché ci sono veramente tanti capi alla moda adatti a tutte le età.\"<\/em><\/p>",
+            "title": "sara magliozzi",
+            "font_size": "small"
           }
         }
       },
       "block_order": [
-        "block-0",
-        "block-1"
+        "template--19274104832336__2746e120-6cec-4be4-b18a-335c91775774-quote-2",
+        "template--19274104832336__2746e120-6cec-4be4-b18a-335c91775774-quote-1",
+        "9b1b3f1f-7c95-468c-8010-d36786453d83",
+        "e838374b-0ea6-4c11-909c-7879d4dd0e2b",
+        "6c177423-56e8-4827-a997-c81594c79ed6",
+        "0e65ad8e-ff62-4877-a246-d61ed6018127",
+        "5182bb34-afbc-447f-9006-3de18026915a"
       ],
       "settings": {
-        "image_position": "right",
-        "text_alignment": "left",
-        "aspect_ratio": "square",
-        "focal_point": "image_presentation",
-        "image_caption": "Optional image caption",
-        "show_small_image": true,
-        "image_small_aspect_ratio": "square",
-        "image_small_focal_point": "center",
-        "background_color": "",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
+        "autoplay_enabled": true,
+        "autoplay_delay": 7,
+        "pagination_style": "dots",
+        "font_choice": "body",
         "enable_animation": true,
-        "divider_style": "none",
+        "divider_style": "solid",
         "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "image-with-text-2": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "block-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Image with text",
-            "heading_font_class": "fs-heading-display-3"
-          }
-        },
-        "block-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use these sections to promote a particular feature with editorial photography<\/p>",
-            "text_font_class": "fs-body-100"
-          }
-        }
-      },
-      "block_order": [
-        "block-0",
-        "block-1"
-      ],
-      "settings": {
-        "image_position": "left",
-        "text_alignment": "left",
-        "aspect_ratio": "square",
-        "focal_point": "image_presentation",
-        "image_caption": "Optional image caption",
-        "show_small_image": true,
-        "image_small_aspect_ratio": "square",
-        "image_small_focal_point": "center",
-        "background_color": "rgba(0,0,0,0)",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "testimonials": {
-      "type": "testimonials",
-      "disabled": true,
-      "blocks": {
-        "block-0": {
-          "type": "testimonial",
-          "settings": {
-            "product": "",
-            "image_position": "right",
-            "aspect_ratio": "square",
-            "focal_point": "image_presentation",
-            "show_rating": true,
-            "rating": 5,
-            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
-            "author": "– Author's name"
-          }
-        },
-        "block-1": {
-          "type": "testimonial",
-          "settings": {
-            "product": "",
-            "image_position": "left",
-            "aspect_ratio": "square",
-            "focal_point": "image_presentation",
-            "show_rating": true,
-            "rating": 5,
-            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
-            "author": "– Author's name"
-          }
-        },
-        "block-2": {
-          "type": "testimonial",
-          "settings": {
-            "product": "",
-            "image_position": "right",
-            "aspect_ratio": "square",
-            "focal_point": "image_presentation",
-            "show_rating": true,
-            "rating": 5,
-            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
-            "author": "– Author's name"
-          }
-        }
-      },
-      "block_order": [
-        "block-0",
-        "block-1",
-        "block-2"
-      ],
-      "settings": {
-        "image_size": "large",
-        "quote_font": "body",
-        "background_color": "#f9f9f9",
-        "text_color": "#000000",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "recommendations": {
-      "type": "recommended-products",
-      "settings": {
-        "title": "Prodotti simili",
-        "subheading": "",
-        "maximum_products": 10,
-        "columns": "4",
-        "mobile_columns": "2",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
       }
     },
     "e9a54a8f-b13b-4450-8b7b-47def5cf0b6a": {
@@ -487,20 +431,198 @@
         "background_color": "",
         "text_color": "#000000",
         "button_background_color": "#000000",
-        "button_text_color": "#FFFFFF",
+        "button_text_color": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "16962452824036d447": {
+      "type": "apps",
+      "blocks": {
+        "06ba9375-9dfe-4eb3-bfa4-3dac152c79e6": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "06ba9375-9dfe-4eb3-bfa4-3dac152c79e6"
+      ],
+      "settings": {
+        "heading": "Seguici su Instagram! @elismodaroma",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "Optional image caption",
+        "show_small_image": true,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "Optional image caption",
+        "show_small_image": true,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "block-0": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        },
+        "block-1": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "left",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        },
+        "block-2": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_size": "large",
+        "quote_font": "body",
+        "background_color": "#f9f9f9",
+        "text_color": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "recommendations": {
+      "type": "recommended-products",
+      "settings": {
+        "title": "Prodotti simili",
+        "subheading": "",
+        "maximum_products": 10,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
       }
     }
   },
   "order": [
     "main",
     "image-hero",
+    "2746e120-6cec-4be4-b18a-335c91775774",
+    "e9a54a8f-b13b-4450-8b7b-47def5cf0b6a",
+    "16962452824036d447",
     "image-with-text-1",
     "image-with-text-2",
     "testimonials",
-    "recommendations",
-    "e9a54a8f-b13b-4450-8b7b-47def5cf0b6a"
+    "recommendations"
   ]
 }

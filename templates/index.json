@@ -52,6 +52,153 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
+    "c117b260-1e5f-4a62-b3da-1b87106f0939": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19214739767632__c117b260-1e5f-4a62-b3da-1b87106f0939-1688645407e4394367-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Chi Siamo",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "19c78334-d1a3-4c92-84f2-dcc00b675020": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dal 2001 siamo presenti a Roma e siamo diventati un punto di riferimento per gli amanti del Pronto Moda. <\/p><p>Da noi troverai una selezione sempre aggiornata di brand casual ed urban chic.<\/p><p>Il nostro obiettivo è quello di esaltare l'eleganza e la femminilità. Da noi, sarai sempre al centro dell'attenzione, con un tocco di classe in ogni dettaglio.<\/p><p>Scegli Elis Moda e lasciati sorprendere dall'infinita bellezza della moda.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--19214739767632__c117b260-1e5f-4a62-b3da-1b87106f0939-1688645407e4394367-0",
+        "19c78334-d1a3-4c92-84f2-dcc00b675020"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify:\/\/shop_images\/Foto_Negozio.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "f2116490-eb25-4a67-a34c-2551ea3b41cc": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "3424a0e3-d7dc-427b-a629-a5d7da64b203": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "abbigliamento",
+            "collection_name": "Nuovi arrivi"
+          }
+        },
+        "c2fadc52-56e7-4a62-85f8-418b9ec7fb23": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "halloween-collection-🎃👻",
+            "collection_name": "Halloween Collection"
+          }
+        },
+        "d23c81df-6189-487a-b311-f964be4184e0": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "3424a0e3-d7dc-427b-a629-a5d7da64b203",
+        "c2fadc52-56e7-4a62-85f8-418b9ec7fb23",
+        "d23c81df-6189-487a-b311-f964be4184e0"
+      ],
+      "settings": {
+        "heading": "Nuovi arrivi",
+        "subheading": "",
+        "link": "shopify:\/\/collections\/nuovi-arrivi",
+        "link_text": "Vedi tutti",
+        "maximum_products": 10,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "16549177944ec2347e": {
+      "type": "rich-text",
+      "blocks": {
+        "1654917794cdc0bc3c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "1654917794cdc0bc3c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "1654917794cdc0bc3c-0",
+        "1654917794cdc0bc3c-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 650
+      }
+    },
+    "16548772614c49ba39": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "767ac6c0-8826-4284-bd74-6eb8a441d7bc": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": false,
+            "collection": "best-seller",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "767ac6c0-8826-4284-bd74-6eb8a441d7bc"
+      ],
+      "settings": {
+        "heading": "I più amati",
+        "subheading": "",
+        "link": "shopify:\/\/collections\/best-seller",
+        "link_text": "Vedi tutti",
+        "maximum_products": 10,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "2109e734-38bb-45b3-a7fe-5d11c5e69b9e": {
       "type": "featured-collection-slider",
       "blocks": {
@@ -80,38 +227,6 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "16549177944ec2347e": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "1654917794cdc0bc3c-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Rich text",
-            "heading_font_class": "fs-heading-3-base"
-          }
-        },
-        "1654917794cdc0bc3c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "text_font_class": "fs-body-100"
-          }
-        }
-      },
-      "block_order": [
-        "1654917794cdc0bc3c-0",
-        "1654917794cdc0bc3c-1"
-      ],
-      "settings": {
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "solid",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom",
-        "custom_content_width": 650
-      }
-    },
     "16558561940a4fe50f": {
       "type": "testimonials",
       "blocks": {
@@ -131,7 +246,7 @@
         "1655856194e7b43695-1": {
           "type": "testimonial",
           "settings": {
-            "product": "sneakers-codad729",
+            "product": "scarpe-strass-tacco-comodo",
             "image_position": "right",
             "aspect_ratio": "square",
             "focal_point": "image_presentation",
@@ -149,38 +264,10 @@
       "settings": {
         "image_size": "small",
         "quote_font": "body",
-        "background_color": "#f4d168",
-        "text_color": "#390099",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "16548772614c49ba39": {
-      "type": "featured-collection-slider",
-      "blocks": {
-        "767ac6c0-8826-4284-bd74-6eb8a441d7bc": {
-          "type": "collection",
-          "settings": {
-            "show_view_all": false,
-            "collection": "best-seller",
-            "collection_name": ""
-          }
-        }
-      },
-      "block_order": [
-        "767ac6c0-8826-4284-bd74-6eb8a441d7bc"
-      ],
-      "settings": {
-        "heading": "I più amati",
-        "subheading": "",
-        "link": "shopify:\/\/collections\/best-seller",
-        "link_text": "Vedi tutti",
-        "maximum_products": 10,
-        "columns": "4",
-        "mobile_columns": "2",
-        "enable_animation": true,
-        "divider_style": "solid",
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
@@ -291,37 +378,8 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "f2116490-eb25-4a67-a34c-2551ea3b41cc": {
-      "type": "featured-collection-slider",
-      "blocks": {
-        "3424a0e3-d7dc-427b-a629-a5d7da64b203": {
-          "type": "collection",
-          "settings": {
-            "show_view_all": true,
-            "collection": "nuovi-arrivi",
-            "collection_name": ""
-          }
-        }
-      },
-      "block_order": [
-        "3424a0e3-d7dc-427b-a629-a5d7da64b203"
-      ],
-      "settings": {
-        "heading": "Nuovi arrivi",
-        "subheading": "",
-        "link": "shopify:\/\/collections\/nuovi-arrivi",
-        "link_text": "Vedi tutti",
-        "maximum_products": 10,
-        "columns": "4",
-        "mobile_columns": "2",
-        "enable_animation": true,
-        "divider_style": "solid",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
     "165489980473ecbf41": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1654899804e4fc48ec-0": {
           "type": "heading",
@@ -351,6 +409,7 @@
         "1654899804e4fc48ec-1",
         "1654899804e4fc48ec-2"
       ],
+      "disabled": true,
       "settings": {
         "image_position": "left",
         "text_alignment": "center",
@@ -371,7 +430,6 @@
     },
     "16548834739d532589": {
       "type": "shoppable-feature",
-      "disabled": true,
       "blocks": {
         "16548834735b1dc2a7-0": {
           "type": "hotspot",
@@ -403,6 +461,7 @@
         "16548834735b1dc2a7-1",
         "16548834735b1dc2a7-2"
       ],
+      "disabled": true,
       "settings": {
         "image_position": "left",
         "image_size": 50,
@@ -441,47 +500,6 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "c117b260-1e5f-4a62-b3da-1b87106f0939": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19214739767632__c117b260-1e5f-4a62-b3da-1b87106f0939-1688645407e4394367-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Chi Siamo",
-            "heading_font_class": "fs-heading-display-3"
-          }
-        },
-        "19c78334-d1a3-4c92-84f2-dcc00b675020": {
-          "type": "text",
-          "settings": {
-            "text": "<p> Siamo più di un semplice negozio: siamo una destinazione per gli amanti dell'abbigliamento, degli accessori e delle scarpe. La nostra professionalità ci distingue e la ricerca continua di brand ti garantisce un'offerta sempre all'avanguardia. Ogni capo d'abbigliamento che troverai da noi è in grado di regalarti emozioni uniche.<\/p><p>I nostri look sono pensati per adattarsi a ogni occasione, senza mai sacrificare l'eleganza e la femminilità. Da noi, sarai sempre al centro dell'attenzione, con un tocco di classe in ogni dettaglio.<\/p><p>Scegli Elis Moda e lasciati sorprendere dall'infinita bellezza della moda.<\/p>",
-            "text_font_class": "fs-body-100"
-          }
-        }
-      },
-      "block_order": [
-        "template--19214739767632__c117b260-1e5f-4a62-b3da-1b87106f0939-1688645407e4394367-0",
-        "19c78334-d1a3-4c92-84f2-dcc00b675020"
-      ],
-      "settings": {
-        "image_position": "right",
-        "text_alignment": "center",
-        "image": "shopify:\/\/shop_images\/Foto_Negozio.jpg",
-        "aspect_ratio": "natural",
-        "focal_point": "image_presentation",
-        "image_caption": "",
-        "show_small_image": false,
-        "image_small_aspect_ratio": "square",
-        "image_small_focal_point": "image_presentation",
-        "background_color": "",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
     "1655855558c1ac2348": {
       "type": "featured-collection-slider",
       "blocks": {
@@ -500,11 +518,20 @@
             "collection": "borse",
             "collection_name": "Borse"
           }
+        },
+        "23d2daaf-07ac-4528-ab6e-3450688d0fc6": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "",
+            "collection_name": ""
+          }
         }
       },
       "block_order": [
         "16558555587b915de6-1",
-        "16558555587b915de6-0"
+        "16558555587b915de6-0",
+        "23d2daaf-07ac-4528-ab6e-3450688d0fc6"
       ],
       "settings": {
         "heading": "ACCESSORI",
@@ -567,21 +594,38 @@
     "pina-instagram": {
       "type": "pina-instagram",
       "settings": {
+        "title": "Follow Us On Instagram",
+        "show_profile": true,
+        "timeline": "own",
+        "small": "2",
+        "medium": "3",
+        "large": "4",
+        "gutter": "2",
+        "count": "8",
+        "hashtags": "",
+        "container_class": "page-width",
+        "margin_top": "",
+        "margin_left": "",
+        "margin_bottom": "",
+        "margin_right": "",
+        "desktop_width": "",
+        "mobile_width": "",
+        "tablet_width": ""
       }
     }
   },
   "order": [
     "16558445044f80743b",
-    "2109e734-38bb-45b3-a7fe-5d11c5e69b9e",
-    "16549177944ec2347e",
-    "16558561940a4fe50f",
-    "16548772614c49ba39",
-    "bcd7241f-cd83-461c-b86d-6436b374a58d",
+    "c117b260-1e5f-4a62-b3da-1b87106f0939",
     "f2116490-eb25-4a67-a34c-2551ea3b41cc",
+    "16549177944ec2347e",
+    "16548772614c49ba39",
+    "2109e734-38bb-45b3-a7fe-5d11c5e69b9e",
+    "16558561940a4fe50f",
+    "bcd7241f-cd83-461c-b86d-6436b374a58d",
     "165489980473ecbf41",
     "16548834739d532589",
     "e8c34271-c8d3-49e0-893e-cdd4bc3f3cd1",
-    "c117b260-1e5f-4a62-b3da-1b87106f0939",
     "1655855558c1ac2348",
     "d71df2af-ba99-428a-9772-57ebe99ef94d",
     "pina-instagram"

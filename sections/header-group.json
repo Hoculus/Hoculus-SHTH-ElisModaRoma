@@ -8,9 +8,9 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "title": "<p>Spedizione gratuita per ordini superiori a 70€<\/p>",
-            "title_mobile": "<p>Spedizione gratuita per ordini superiori a 70€<\/p>",
-            "link": ""
+            "title": "<p>Ordina il tuo outfit della nostra collezione di Halloween: riceverai in omaggio un gadget a sorpresa!<\/p>",
+            "title_mobile": "<p>Ordina il tuo outfit della nostra collezione di Halloween: riceverai in omaggio un gadget a sorpresa!<\/p>",
+            "link": "shopify:\/\/collections\/halloween-collection-🎃👻"
           }
         },
         "announcement-bar-1": {
@@ -20,11 +20,20 @@
             "title_mobile": "<p>Contatti<a href=\"tel:+393395721830\"> +39 339 5721830 <\/a>e <a href=\"mailto:info@elismoda.it%20\">info@elismoda.it<\/a><\/p>",
             "link": ""
           }
+        },
+        "1d41e43b-05aa-4c24-ae15-cb970e20f698": {
+          "type": "announcement",
+          "settings": {
+            "title": "<p>Free standard shipping and returns on all orders<\/p>",
+            "title_mobile": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement-bar-1"
+        "announcement-bar-1",
+        "1d41e43b-05aa-4c24-ae15-cb970e20f698"
       ],
       "settings": {
         "autoplay_enabled": true,

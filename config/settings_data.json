@@ -7,10 +7,11 @@
     "color_header_text": "#000000",
     "color_header_bg": "#ffffff",
     "color_text_footer": "#ffffff",
-    "color_background_footer": "#390099",
+    "color_background_footer": "#e4107c",
     "color_background_button": "#e4107c",
     "color_text_button": "#ffffff",
     "color_products_stock_good": "#3C9342",
+    "color_products_stock_medium": "#e4107c",
     "font_logo": "itc_clearface_n4",
     "capitalize_logo": true,
     "logo_base_size": 32,
@@ -33,7 +34,7 @@
     "enable_page_transitions": false,
     "enable_section_animations": false,
     "swatch_options": "Colore, Taglie",
-    "custom_swatch_colors": "Argento: #C0C0C0\nBeige: #F5F5DC\nBeige\/Rosa: #FFC0CB\nBianca: #FFFFFF\nbianco con le righe nere: #000000\nbianco con le righe viola: #800080\nBianco\/lilla: #C8A2C8\nBianco\/nero: #000000\nBlu: #0000FF\nBlu chiaro: #ADD8E6\nBlu elettrico: #003399\nCeleste: #4997D0\nFucsia: #FF00FF\nGiallo: #FFFF00\nGrigio: #808080\nGrigio Chiaro: #BEBFC5\nJeans: #5DADEC\nLilla: #C8A2C8\nMarrone: #993300\nNera: #000000\nNero: #000000\nOro: #FFD700\nPanna: #FFFDD0\nPesca: #FFCBA4\nRosa: #FFC0CB\nRosa Cipria: #F78575\nRosso: #FF0000\nTortora: #A8A490\nVerde: #00FF00\nVerde militare: #667C3E\nVerde pistacchio: #93C572\nViola: #8000FF",
+    "custom_swatch_colors": "Arancio: #FF8000\nArgento: #C0C0C0\nBeige: #F5F5DC\nBeige\/rosa: #FFC0CB\nBianco: #FFFFFF\nBianca: #FFFFFF\nbianco con le righe nere: #000000\nbianco con le righe viola: #800080\nBianco\/lilla: #C8A2C8\nBianco\/nero: #000000\nBlu: #0000FF\nBlu chiaro: #ADD8E6\nBlu elettrico: #003399\nCamel: #C19A6B\nCiclamino: #F56FA1\nCeleste: #4997D0\nFucsia: #FF00FF\nGiallo: #FFFF00\nGrigio: #808080\nGrigio\/Fucsia: #808080\nGrigio\/Lilla: #808080\nGrigio Chiaro: #BEBFC5\nJeans: #5DADEC\nJeans Chiaro: #ADD8E6\nJeans Scuro: #1034A6\nLilla: #C8A2C8\nMarrone: #993300\nNera: #000000\nNero: #000000\nNero con fiori: #000000\nOro: #FFD700\nPanna: #FFFDD0\nPesca: #FFCBA4\nRosa: #FFC0CB\nRosa Cipria: #F78575\nRosso: #FF0000\nTortora: #A8A490\nVerde: #00FF00\nVerde militare: #667C3E\nVerde pistacchio: #93C572\nViola: #8000FF",
     "sale_badge_format": "sale_text",
     "custom_product_badge_group_1_tag_names": "Responsible",
     "custom_product_badge_group_1_color": "#3C9342",
@@ -81,6 +82,8 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/Logo_ElisModa_small_7d0f1a37-ca17-4ff5-956c-5377a55e6f83.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "medium",
+    "checkout_accent_color": "#e4107c",
+    "checkout_button_color": "#e4107c",
     "sections": {
       "password-header": {
         "type": "password-header",
@@ -96,6 +99,13 @@
       "pina-instagram": {
         "type": "pina-instagram",
         "settings": {
+          "title": "Siamo appassionate di moda e lo condividiamo tutti i giorni!",
+          "show_profile": true,
+          "small": "2",
+          "medium": "3",
+          "large": "4",
+          "gutter": "2",
+          "count": "8"
         }
       }
     },
