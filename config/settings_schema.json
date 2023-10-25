@@ -1055,5 +1055,137 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Hoculus custom - Whatsapp Widget",
+    "settings": [
+      {
+        "type": "text",
+        "id": "hoculus_whatsapp_number",
+        "label": "numero del destinatario",
+        "info": "inserire numero con country code senza + tipo: 393334556794"
+      },
+      {
+        "type": "text",
+        "id": "hoculus_whatsapp_header",
+        "label": "Titolo della chat"
+      },
+      {
+        "type": "text",
+        "id": "hoculus_whatsapp_fake_text",
+        "label": "testo del messaggio che vede l'utente"
+      },
+      {
+        "type": "text",
+        "id": "hoculus_whatsapp_message_text",
+        "label": "testo del messaggio che invia l'utente"
+      },
+      {
+        "type": "text",
+        "id": "hoculus_whatsapp_message_placeholder",
+        "label": "Placeholder messaggio che invia l'utente",
+        "default": "Scrivi qui il tuo messaggio"
+      },
+      {
+        "type": "number",
+        "id": "hoculus_whatsapp_popup_open",
+        "label": "secondi all'apertura del popup",
+        "info": "numero di secondi prima dell'apertura, inserire 0 per lasciare chiuso",
+        "default": 0
+      },
+      {
+        "type": "color",
+        "id": "hoculus_whatsapp_color",
+        "label": "Colore dei dettagli"
+      },
+      {
+        "type": "range",
+        "id": "hoculus_whatsapp_widget_x_d",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "Posizione orizzontale desktop",
+        "default": 3
+      },
+      {
+        "type": "range",
+        "id": "hoculus_whatsapp_widget_y_d",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "Posizione verticale desktop",
+        "default": 90
+      },
+      {
+        "type": "range",
+        "id": "hoculus_whatsapp_widget_x_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "Posizione orizzontale mobile",
+        "default": 3
+      },
+      {
+        "type": "range",
+        "id": "hoculus_whatsapp_widget_y_m",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "Posizione verticale mobile",
+        "default": 90
+      },
+      {
+        "type": "select",
+        "id": "hoculus_whatsapp_x_popup_d",
+        "label": "Direzione apertura popup chat desktop",
+        "options": [
+          {
+            "value": "left",
+            "label": "Sinistra"
+          },
+          {
+            "value": "right",
+            "label": "Destra"
+          }
+        ],
+        "default": "right"
+      },
+      {
+        "type": "select",
+        "id": "hoculus_whatsapp_x_popup_m",
+        "label": "Direzione apertura popup chat mobile",
+        "options": [
+          {
+            "value": "left",
+            "label": "Sinistra"
+          },
+          {
+            "value": "right",
+            "label": "Destra"
+          }
+        ],
+        "default": "right"
+      },
+      {
+        "type": "range",
+        "id": "hoculus_whatsapp_widget_size",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "unit": "px",
+        "label": "Imposta dimensione widget",
+        "default": 60
+      },
+      {
+        "type": "checkbox",
+        "id": "hoculus_whatsapp_disable_shopify_chat",
+        "label": "Disabilita Shopify Chat",
+        "default": true
+      }
+    ]
   }
 ]

@@ -111,6 +111,33 @@
 
     {{ '//www.youtube.com/iframe_api' | script_tag }}
     {{ '//cdn.shopify.com/shopifycloud/shopify-plyr/v1.0/shopify-plyr.css' | stylesheet_tag }}
+    
+    <script type="text/javascript">
+      window.hoculus = window.hoculus || {};
+      hoculus.whatsapp = {
+        selectors: {
+          wrapper: "#whatsapp-button",
+          dataset: "whatsappSettings"
+        },
+        number: '{{ settings.hoculus_whatsapp_number | escape }}',
+        header: '{{ settings.hoculus_whatsapp_header | escape }}',
+        message_text: '{{ settings.hoculus_whatsapp_message_text | escape }}',
+        fake_text: '{{ settings.hoculus_whatsapp_fake_text | escape }}',
+        popup_open_time: '{{ settings.hoculus_whatsapp_popup_open | escape }}',
+        color: '{{ settings.hoculus_whatsapp_color | escape }}'
+        }
+        hoculus.themeData = {
+        floatingWppJs: "{{ 'hoculus-floating-wpp.min.js' | asset_url }}",
+        floatingWppCss: "{{ 'hoculus-floating-wpp.min.css' | asset_url }}"
+        }
+        hoculus.assets = {
+        js: {
+          jquery: "{{ 'jquery-3.3.1.min.js' | asset_url }}"
+        }
+      };
+    </script>
+    <script type="text/javascript" src="{{ 'hoculus.js' | asset_url }}" defer></script>
+    {% render 'hoculus-whatsapp-widget' %}
   </body>
   {{ 'theme-deferred.css' | asset_url | stylesheet_tag }}
 </html>

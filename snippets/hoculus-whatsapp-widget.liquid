@@ -1,0 +1,51 @@
+{% if settings.hoculus_whatsapp_number != blank %}
+<div id="whatsapp-button" style="display:none" data-whatsapp-settings='{"phone":"{{ settings.hoculus_whatsapp_number | escape }}",{% if settings.hoculus_whatsapp_header != blank%}"headerTitle":"{{ settings.hoculus_whatsapp_header | escape }}",{% endif %}"message":"{{ settings.hoculus_whatsapp_message_text | escape }}","placeholder":"{{ settings.hoculus_whatsapp_message_placeholder | escape }}","popupMessage":"{{ settings.hoculus_whatsapp_fake_text | escape }}","autoOpenTimeout": {{ settings.hoculus_whatsapp_popup_open | times: 1000 }},"showPopup": true{% if settings.hoculus_whatsapp_color.alpha != 0 and settings.hoculus_whatsapp_color != 'rgba(0,0,0,0)' and settings.hoculus_whatsapp_color != blank %},"backgroundColor": "{{ settings.hoculus_whatsapp_color | escape }}","headerColor":"{{ settings.hoculus_whatsapp_color }}"{% endif %},"size": "{{ settings.hoculus_whatsapp_widget_size }}px"}'></div>
+<style>
+    #whatsapp-button {
+      z-index: 999;
+      left: {{ settings.hoculus_whatsapp_widget_x_d }}vw;
+      top: calc({{ settings.hoculus_whatsapp_widget_y_d }}vh - {{ settings.hoculus_whatsapp_widget_size }}px)!important;
+      {% if settings.hoculus_whatsapp_visibility == "mobile" %}
+        display: none!important;
+      {% endif %}
+      height: {{ settings.hoculus_whatsapp_widget_size }}px;
+    }
+    #whatsapp-button textarea{
+      min-height: unset;
+    }
+    @media screen and (max-width: 768px) {
+      #whatsapp-button {
+        left: {{ settings.hoculus_whatsapp_widget_x_m }}vw;
+        top: calc({{ settings.hoculus_whatsapp_widget_y_m }}vh - {{ settings.hoculus_whatsapp_widget_size }}px)!important;
+        {% if settings.hoculus_whatsapp_visibility == "mobile" %}
+          display: block!important;
+        {% elsif settings.hoculus_whatsapp_visibility == "desktop" %}
+          display: none!important;
+        {% endif %}
+      }
+    }
+    {% if settings.hoculus_whatsapp_x_popup_d == "left" %}
+      #whatsapp-button.floating-wpp .floating-wpp-popup.active {
+        right: 75px!important;
+        left: auto;
+      }
+    {% endif %}
+    {% if settings.hoculus_whatsapp_x_popup_m == "left" %}
+      @media screen and (max-width: 768px) {
+        #whatsapp-button.floating-wpp .floating-wpp-popup.active {
+          right: 7.5px!important;
+        }
+      }
+    {% endif %}
+
+    #whatsapp-button g[clip-path] g:first-child path {
+      fill: {{ settings.hoculus_whatsapp_color | escape }}!important
+    }
+
+    {% if settings.hoculus_whatsapp_disable_shopify_chat %}
+    #dummy-chat-button-iframe {
+        display: none;
+    }
+    {% endif %}
+  </style>
+{% endif %}
