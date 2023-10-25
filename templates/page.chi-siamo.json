@@ -1,0 +1,66 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "9e0a1f2d-7064-4667-910a-409f6c563c47": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19215691645264__9e0a1f2d-7064-4667-910a-409f6c563c47-16886432208ed10590-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Chi Siamo",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "template--19215691645264__9e0a1f2d-7064-4667-910a-409f6c563c47-16886432208ed10590-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elis Moda offre abbigliamento accessori e scarpe on line con la professionalità che ci distingue da sempre.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "90395f04-ae08-4219-ae58-d46bde7fc388": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elis-moda-logo_c7850e03-02d5-4ddf-9920-02dccb5946dd.png",
+            "content_width": "custom",
+            "image_size": 740,
+            "image_size_mobile": 350
+          }
+        },
+        "ce65e1fa-45eb-478b-8dd2-f71fec92ec18": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La continua ricerca di brand ci porta a modificare continuamente la nostra offerta creando nuove emozioni che solo un capo d’abbigliamento sa dare.<\/p><p>I look proposti da Elis Moda Roma si adattano ad ogni occasione, l’eleganza e la femminilità non vengono mai messe da parte.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--19215691645264__9e0a1f2d-7064-4667-910a-409f6c563c47-16886432208ed10590-0",
+        "template--19215691645264__9e0a1f2d-7064-4667-910a-409f6c563c47-16886432208ed10590-1",
+        "90395f04-ae08-4219-ae58-d46bde7fc388",
+        "ce65e1fa-45eb-478b-8dd2-f71fec92ec18"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9e0a1f2d-7064-4667-910a-409f6c563c47"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "type": "header",
+  "name": "t:groups.header_group.name",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "title": "<p>Spedizione gratuita per ordini superiori a 70€<\/p>",
+            "title_mobile": "<p>Spedizione gratuita per ordini superiori a 70€<\/p>",
+            "link": ""
+          }
+        },
+        "announcement-bar-1": {
+          "type": "announcement",
+          "settings": {
+            "title": "<p>Contatti<a href=\"tel:+393395721830\"> +39 339 5721830 <\/a>e <a href=\"mailto:info@elismoda.it%20\">info@elismoda.it<\/a><\/p>",
+            "title_mobile": "<p>Contatti<a href=\"tel:+393395721830\"> +39 339 5721830 <\/a>e <a href=\"mailto:info@elismoda.it%20\">info@elismoda.it<\/a><\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "announcement-bar-1"
+      ],
+      "settings": {
+        "autoplay_enabled": true,
+        "autoplay_delay": 4,
+        "color_background": "#e30f7b",
+        "color_text": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "meganav-0": {
+          "type": "full_width_meganav",
+          "settings": {
+            "dropdown_parent_link": "",
+            "column_count": 2,
+            "show_column_borders": false,
+            "show_promo": false,
+            "promo_width": 700,
+            "promo_height": 400,
+            "secondary_position": "right",
+            "focal_point": "image_presentation",
+            "promo_text": "Newest Releases",
+            "link": "shopify:\/\/collections\/all",
+            "link_text": "Discover",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1) 22%, rgba(0, 0, 0, 1) 96%)",
+            "overlay_opacity": 33
+          }
+        },
+        "meganav-1": {
+          "type": "compact_meganav",
+          "settings": {
+            "dropdown_parent_link": "Dresses",
+            "columns_width": 270,
+            "column_count": 1,
+            "show_column_borders": false,
+            "show_promo": true,
+            "promo_width": 550,
+            "promo_height": 350,
+            "secondary_position": "right",
+            "focal_point": "image_presentation",
+            "promo_text": "Newest Releases",
+            "link": "shopify:\/\/collections\/all",
+            "link_text": "Discover",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 1) 96%)",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "meganav-0",
+        "meganav-1"
+      ],
+      "settings": {
+        "layout": "logo-center_nav-below",
+        "enable_sticky_header": true,
+        "divider_width": "0px",
+        "enable_locale_selector": false,
+        "enable_country_selector": false,
+        "show_social_media": false,
+        "logo": "shopify:\/\/shop_images\/Logo_ElisModa_small_7d0f1a37-ca17-4ff5-956c-5377a55e6f83.png",
+        "logo_width": 170,
+        "mobile_logo_width": 100,
+        "menu": "hoculus-main-men",
+        "secondary_menu": "",
+        "enable_transparent_on_home": true,
+        "enable_transparent_template_list": "",
+        "color_text_transparent": "#000000",
+        "color_count_transparent": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

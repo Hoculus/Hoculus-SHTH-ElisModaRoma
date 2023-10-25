@@ -1,0 +1,589 @@
+{
+  "sections": {
+    "16558445044f80743b": {
+      "type": "image-hero",
+      "blocks": {
+        "d0cd2366-7930-4809-80d7-2b38d2d4fb07": {
+          "type": "heading",
+          "settings": {
+            "title": "Emozioni uniche, look irresistibili.",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "8a49de45-4784-4f5d-adcf-b87e81e76548": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "subheading_font_class": "fs-heading-4-base"
+          }
+        },
+        "15c58a65-cec7-4639-8936-8e3534462aff": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/collections\/all",
+            "link_text": "Scopri i prodotti",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "d0cd2366-7930-4809-80d7-2b38d2d4fb07",
+        "8a49de45-4784-4f5d-adcf-b87e81e76548",
+        "15c58a65-cec7-4639-8936-8e3534462aff"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify:\/\/shop_images\/Hero_ElisModa.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Hero_mobile.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "center",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#390099",
+        "button_background_color": "#390099",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "2109e734-38bb-45b3-a7fe-5d11c5e69b9e": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "af83e042-d57b-4cc5-ab2b-d5a33dad5173": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "promozioni",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "af83e042-d57b-4cc5-ab2b-d5a33dad5173"
+      ],
+      "settings": {
+        "heading": "Saldi estivi",
+        "subheading": "<p>Approfitta delle offerte dell'estate<\/p>",
+        "link": "shopify:\/\/collections\/nuovi-arrivi",
+        "link_text": "Vedi tutti",
+        "maximum_products": 10,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "16549177944ec2347e": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1654917794cdc0bc3c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "1654917794cdc0bc3c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "1654917794cdc0bc3c-0",
+        "1654917794cdc0bc3c-1"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 650
+      }
+    },
+    "16558561940a4fe50f": {
+      "type": "testimonials",
+      "blocks": {
+        "1655856194e7b43695-0": {
+          "type": "testimonial",
+          "settings": {
+            "product": "texani",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "Ho acquistato online due stivali; essendo indecisa sul numero ho contattato il negozio dove, una gentilissima e disponibilissima commessa, mi ha aiutata mandandomi foto e misure dettagliate. Brava! Capita di rado di essere trattati così bene. Farò sicuramente altri acquisti.",
+            "author": "– Michela B."
+          }
+        },
+        "1655856194e7b43695-1": {
+          "type": "testimonial",
+          "settings": {
+            "product": "sneakers-codad729",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "Ho comprato un paio di scarpe a dir poco bellissime! La consegna è arrivata in un solo giorno. Prezzi super e qualità ottima ❤",
+            "author": "– Flora C."
+          }
+        }
+      },
+      "block_order": [
+        "1655856194e7b43695-0",
+        "1655856194e7b43695-1"
+      ],
+      "settings": {
+        "image_size": "small",
+        "quote_font": "body",
+        "background_color": "#f4d168",
+        "text_color": "#390099",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "16548772614c49ba39": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "767ac6c0-8826-4284-bd74-6eb8a441d7bc": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": false,
+            "collection": "best-seller",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "767ac6c0-8826-4284-bd74-6eb8a441d7bc"
+      ],
+      "settings": {
+        "heading": "I più amati",
+        "subheading": "",
+        "link": "shopify:\/\/collections\/best-seller",
+        "link_text": "Vedi tutti",
+        "maximum_products": 10,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "bcd7241f-cd83-461c-b86d-6436b374a58d": {
+      "type": "multi-column",
+      "blocks": {
+        "cf52f5f1-5bd6-4d4e-a858-4f7126552bf0": {
+          "type": "icon_column",
+          "settings": {
+            "icon": "plant",
+            "icon_width": 100,
+            "icon_width_mobile": 80,
+            "custom_icon_image": "shopify:\/\/shop_images\/wired-outline-497-truck-delivery.gif",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Consegna in <strong>2\/3 giorni<\/strong><\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "01faaeb4-fe91-4b96-b8e6-83324aafac81": {
+          "type": "icon_column",
+          "settings": {
+            "icon": "plant",
+            "icon_width": 100,
+            "icon_width_mobile": 80,
+            "custom_icon_image": "shopify:\/\/shop_images\/wired-outline-453-savings-pig.gif",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>14 giorni <strong>soddisfatti o 100% rimborsati<\/strong><\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "f0e0aa74-000d-4251-8f0b-240cfc855853": {
+          "type": "icon_column",
+          "settings": {
+            "icon": "plant",
+            "icon_width": 100,
+            "icon_width_mobile": 80,
+            "custom_icon_image": "shopify:\/\/shop_images\/wired-outline-981-consultation.gif",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Assistenza clienti <strong>7 giorni su 7<\/strong><\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "1cd4d231-534c-42b4-9daa-7a63f52d5bf6": {
+          "type": "icon_column",
+          "settings": {
+            "icon": "plant",
+            "icon_width": 100,
+            "icon_width_mobile": 80,
+            "custom_icon_image": "shopify:\/\/shop_images\/wired-outline-946-equity-security.gif",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Pagamenti elettronici <strong>protetti<\/strong><\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "cf52f5f1-5bd6-4d4e-a858-4f7126552bf0",
+        "01faaeb4-fe91-4b96-b8e6-83324aafac81",
+        "f0e0aa74-000d-4251-8f0b-240cfc855853",
+        "1cd4d231-534c-42b4-9daa-7a63f52d5bf6"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "center",
+        "content_background_padding": "medium",
+        "columns": "2",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "columns_mobile": "2",
+        "column_spacing_mobile": 8,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "center",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "f2116490-eb25-4a67-a34c-2551ea3b41cc": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "3424a0e3-d7dc-427b-a629-a5d7da64b203": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "nuovi-arrivi",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "3424a0e3-d7dc-427b-a629-a5d7da64b203"
+      ],
+      "settings": {
+        "heading": "Nuovi arrivi",
+        "subheading": "",
+        "link": "shopify:\/\/collections\/nuovi-arrivi",
+        "link_text": "Vedi tutti",
+        "maximum_products": 10,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "165489980473ecbf41": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1654899804e4fc48ec-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "1654899804e4fc48ec-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Use these sections to promote a particular feature with editorial photography",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "1654899804e4fc48ec-2": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "1654899804e4fc48ec-0",
+        "1654899804e4fc48ec-1",
+        "1654899804e4fc48ec-2"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": true,
+        "image_small_aspect_ratio": "natural",
+        "image_small_focal_point": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "16548834739d532589": {
+      "type": "shoppable-feature",
+      "disabled": true,
+      "blocks": {
+        "16548834735b1dc2a7-0": {
+          "type": "hotspot",
+          "settings": {
+            "product_item": "",
+            "horizontal_position": 37,
+            "vertical_position": 69
+          }
+        },
+        "16548834735b1dc2a7-1": {
+          "type": "hotspot",
+          "settings": {
+            "product_item": "",
+            "horizontal_position": 43,
+            "vertical_position": 37
+          }
+        },
+        "16548834735b1dc2a7-2": {
+          "type": "hotspot",
+          "settings": {
+            "product_item": "",
+            "horizontal_position": 63,
+            "vertical_position": 18
+          }
+        }
+      },
+      "block_order": [
+        "16548834735b1dc2a7-0",
+        "16548834735b1dc2a7-1",
+        "16548834735b1dc2a7-2"
+      ],
+      "settings": {
+        "image_position": "left",
+        "image_size": 50,
+        "aspect_ratio": "portrait_alt",
+        "heading": "Shoppable image - editorial",
+        "subheading": "<p>Use this section to highlight different products within an image with an integrated carousel<\/p>",
+        "link": "",
+        "link_text": "Shop now",
+        "button_style": "btn--callout",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_position_desktop": "inside"
+      }
+    },
+    "e8c34271-c8d3-49e0-893e-cdd4bc3f3cd1": {
+      "type": "collection-list-slider",
+      "disabled": true,
+      "settings": {
+        "heading": "Collection list",
+        "subheading": "",
+        "link": "shopify:\/\/collections",
+        "link_text": "View all collections",
+        "columns": "4",
+        "mobile_columns": "2",
+        "collection_list": [
+
+        ],
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "c117b260-1e5f-4a62-b3da-1b87106f0939": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19214739767632__c117b260-1e5f-4a62-b3da-1b87106f0939-1688645407e4394367-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Chi Siamo",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "19c78334-d1a3-4c92-84f2-dcc00b675020": {
+          "type": "text",
+          "settings": {
+            "text": "<p> Siamo più di un semplice negozio: siamo una destinazione per gli amanti dell'abbigliamento, degli accessori e delle scarpe. La nostra professionalità ci distingue e la ricerca continua di brand ti garantisce un'offerta sempre all'avanguardia. Ogni capo d'abbigliamento che troverai da noi è in grado di regalarti emozioni uniche.<\/p><p>I nostri look sono pensati per adattarsi a ogni occasione, senza mai sacrificare l'eleganza e la femminilità. Da noi, sarai sempre al centro dell'attenzione, con un tocco di classe in ogni dettaglio.<\/p><p>Scegli Elis Moda e lasciati sorprendere dall'infinita bellezza della moda.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "template--19214739767632__c117b260-1e5f-4a62-b3da-1b87106f0939-1688645407e4394367-0",
+        "19c78334-d1a3-4c92-84f2-dcc00b675020"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify:\/\/shop_images\/Foto_Negozio.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "1655855558c1ac2348": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "16558555587b915de6-1": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "scarpe",
+            "collection_name": "Scarpe"
+          }
+        },
+        "16558555587b915de6-0": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "borse",
+            "collection_name": "Borse"
+          }
+        }
+      },
+      "block_order": [
+        "16558555587b915de6-1",
+        "16558555587b915de6-0"
+      ],
+      "settings": {
+        "heading": "ACCESSORI",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "maximum_products": 8,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "d71df2af-ba99-428a-9772-57ebe99ef94d": {
+      "type": "newsletter-compact",
+      "blocks": {
+        "template--15305459073231__d71df2af-ba99-428a-9772-57ebe99ef94d-1668035253c173f759-0": {
+          "type": "text_content",
+          "settings": {
+            "width": "600",
+            "title": "Iscriviti alla nostra newsletter",
+            "heading_font_class": "fs-heading-3-base",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "<p><strong>SUBITO<\/strong> per te il <strong>10% DI SCONTO <\/strong>sul tuo primo acquisto<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "template--15305459073231__d71df2af-ba99-428a-9772-57ebe99ef94d-1668035253c173f759-1": {
+          "type": "newsletter_signup",
+          "settings": {
+            "signup_link_text": "Iscriviti",
+            "footer_text": "<p>Iscrivendoti alla newsletter, accetti le nostre <a href=\"\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">informative sulla privacy<\/a>. Puoi annullare l'iscrizione alla newsletter in qualsiasi momento.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15305459073231__d71df2af-ba99-428a-9772-57ebe99ef94d-1668035253c173f759-0",
+        "template--15305459073231__d71df2af-ba99-428a-9772-57ebe99ef94d-1668035253c173f759-1"
+      ],
+      "settings": {
+        "spacing_mode": "between",
+        "alignment": "left",
+        "focal_point": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "pina-instagram": {
+      "type": "pina-instagram",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "16558445044f80743b",
+    "2109e734-38bb-45b3-a7fe-5d11c5e69b9e",
+    "16549177944ec2347e",
+    "16558561940a4fe50f",
+    "16548772614c49ba39",
+    "bcd7241f-cd83-461c-b86d-6436b374a58d",
+    "f2116490-eb25-4a67-a34c-2551ea3b41cc",
+    "165489980473ecbf41",
+    "16548834739d532589",
+    "e8c34271-c8d3-49e0-893e-cdd4bc3f3cd1",
+    "c117b260-1e5f-4a62-b3da-1b87106f0939",
+    "1655855558c1ac2348",
+    "d71df2af-ba99-428a-9772-57ebe99ef94d",
+    "pina-instagram"
+  ]
+}

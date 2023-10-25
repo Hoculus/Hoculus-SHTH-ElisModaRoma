@@ -1,0 +1,71 @@
+{
+  "type": "custom.overlay",
+  "name": "t:groups.overlay_group.name",
+  "sections": {
+    "quick-cart": {
+      "type": "quick-cart",
+      "custom_css": [
+        ".quick-cart__heading sup {display:none;}"
+      ],
+      "settings": {
+        "enable_quick_cart": true,
+        "show_product_currency": false,
+        "promotion_text": "<p>Trovato niente? <\/p>",
+        "collection_list": [
+
+        ],
+        "collection_list_button_style": "btn--secondary"
+      }
+    },
+    "popup": {
+      "type": "popup",
+      "blocks": {
+        "5d80c729-911a-44d8-8a0c-2aaebee2e19a": {
+          "type": "flyout_signup",
+          "settings": {
+            "delay": "timer_30000",
+            "frequency": "frequency_100000",
+            "show_on_exit_intent": false,
+            "disable_for_account_holders": true,
+            "show_on_specific_page": false,
+            "target_page": "",
+            "accent": "",
+            "heading": "Iscriviti",
+            "heading_font_class": "fs-heading-2-base",
+            "text": "<p><strong>SUBITO <\/strong>per te il <strong>10% DI SCONTO <\/strong>sul tuo primo acquisto<\/p>",
+            "link_text": "Iscriviti",
+            "dismiss_text": "No grazie",
+            "footer_text": "<p>Compilando questo modulo, vi iscrivete a ricevere le nostre e-mail e potete annullare l'iscrizione quando volete.<\/p>",
+            "tags": "newsletter",
+            "flyout_position": "right",
+            "content_alignment": "center",
+            "focal_point": "image_presentation",
+            "background_color": "#f4d168",
+            "text_color": "#390099",
+            "input_color": "#000000",
+            "input_background": "#fff",
+            "button_background_color": "#390099",
+            "button_text_color": "#FFFFFF",
+            "color_overlay": "#000",
+            "overlay_opacity": 0,
+            "enable_tab": true,
+            "tab_text": "Ottieni il 10% di sconto",
+            "text_font_class": "fs-body-100",
+            "tab_position": "bottom_left_floating",
+            "tab_text_color": "#000000",
+            "tab_background_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "5d80c729-911a-44d8-8a0c-2aaebee2e19a"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "quick-cart",
+    "popup"
+  ]
+}

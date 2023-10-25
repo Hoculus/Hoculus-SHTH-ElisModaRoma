@@ -1,0 +1,47 @@
+{
+  "type": "footer",
+  "name": "t:groups.footer_group.name",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-3": {
+          "type": "links",
+          "settings": {
+            "desktop_width": 50,
+            "desktop_padding": 0,
+            "collapse_on_mobile": true,
+            "title": "Link Utili",
+            "show_title_on_desktop": true,
+            "link_list": "footer"
+          }
+        },
+        "footer-4": {
+          "type": "newsletter",
+          "settings": {
+            "desktop_width": 50,
+            "desktop_padding": 20,
+            "collapse_on_mobile": false,
+            "title": "Newsletter",
+            "show_title_on_desktop": true,
+            "text": "",
+            "show_social_icons": true
+          }
+        }
+      },
+      "block_order": [
+        "footer-3",
+        "footer-4"
+      ],
+      "settings": {
+        "enable_locale_selector": true,
+        "enable_country_selector": true,
+        "show_payment_icons": true,
+        "additional_copyright_text": ""
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
