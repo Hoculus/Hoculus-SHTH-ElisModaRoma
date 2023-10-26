@@ -248,6 +248,7 @@
           "settings": {
             "product": "scarpe-strass-tacco-comodo",
             "image_position": "right",
+            "image": "shopify:\/\/shop_images\/scarpe_new.jpg",
             "aspect_ratio": "square",
             "focal_point": "image_presentation",
             "show_rating": true,
