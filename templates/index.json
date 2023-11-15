@@ -104,14 +104,6 @@
             "collection_name": "Nuovi arrivi"
           }
         },
-        "c2fadc52-56e7-4a62-85f8-418b9ec7fb23": {
-          "type": "collection",
-          "settings": {
-            "show_view_all": true,
-            "collection": "halloween-collection-🎃👻",
-            "collection_name": "Halloween Collection"
-          }
-        },
         "d23c81df-6189-487a-b311-f964be4184e0": {
           "type": "collection",
           "settings": {
@@ -123,7 +115,6 @@
       },
       "block_order": [
         "3424a0e3-d7dc-427b-a629-a5d7da64b203",
-        "c2fadc52-56e7-4a62-85f8-418b9ec7fb23",
         "d23c81df-6189-487a-b311-f964be4184e0"
       ],
       "settings": {
