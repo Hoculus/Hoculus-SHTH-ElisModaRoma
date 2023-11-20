@@ -111,11 +111,20 @@
             "collection": "",
             "collection_name": ""
           }
+        },
+        "1977facf-6506-44f2-bdef-5c59b8aa2588": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "black-friday-sale💣",
+            "collection_name": "Black week❤️"
+          }
         }
       },
       "block_order": [
         "3424a0e3-d7dc-427b-a629-a5d7da64b203",
-        "d23c81df-6189-487a-b311-f964be4184e0"
+        "d23c81df-6189-487a-b311-f964be4184e0",
+        "1977facf-6506-44f2-bdef-5c59b8aa2588"
       ],
       "settings": {
         "heading": "Nuovi arrivi",
