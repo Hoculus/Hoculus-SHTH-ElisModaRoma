@@ -566,7 +566,7 @@
           "type": "newsletter_signup",
           "settings": {
             "signup_link_text": "Iscriviti",
-            "footer_text": "<p>Iscrivendoti alla newsletter, accetti le nostre <a href=\"\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">informative sulla privacy<\/a>. Puoi annullare l'iscrizione alla newsletter in qualsiasi momento.<\/p>"
+            "footer_text": "<p>Iscrivendoti alla newsletter, accetti le nostre<a href=\"https:\/\/elismodaroma.myshopify.com\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">informative sulla privacy<\/a>. Puoi annullare l'iscrizione alla newsletter in qualsiasi momento.<\/p>"
           }
         }
       },
@@ -574,6 +574,7 @@
         "template--15305459073231__d71df2af-ba99-428a-9772-57ebe99ef94d-1668035253c173f759-0",
         "template--15305459073231__d71df2af-ba99-428a-9772-57ebe99ef94d-1668035253c173f759-1"
       ],
+      "disabled": true,
       "settings": {
         "spacing_mode": "evenly",
         "alignment": "left",
