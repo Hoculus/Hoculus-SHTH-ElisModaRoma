@@ -640,12 +640,18 @@
       "settings": {
         "heading": "Guardaroba",
         "subheading": "",
-        "link": "shopify:\/\/collections",
-        "link_text": "View all collections",
-        "columns": "4",
+        "link": "",
+        "link_text": "",
+        "columns": "3",
         "mobile_columns": "2",
         "collection_list": [
-
+          "giacca",
+          "gonne-pantaloncini",
+          "maglioni-felpe",
+          "pantaloni-e-jeans",
+          "scarpe",
+          "t-shirt-bluse-camicie-top",
+          "vestiti"
         ],
         "collection_listing_aspect_ratio": "square",
         "label_style": "overlay",
