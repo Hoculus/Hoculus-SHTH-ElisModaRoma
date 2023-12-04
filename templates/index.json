@@ -634,6 +634,28 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
+    },
+    "0589a397-3871-40ff-b87a-e568a9ac963e": {
+      "type": "collection-list-slider",
+      "settings": {
+        "heading": "Guardaroba",
+        "subheading": "",
+        "link": "shopify:\/\/collections",
+        "link_text": "View all collections",
+        "columns": "4",
+        "mobile_columns": "2",
+        "collection_list": [
+
+        ],
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#fff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
@@ -651,6 +673,7 @@
     "1655855558c1ac2348",
     "d71df2af-ba99-428a-9772-57ebe99ef94d",
     "pina-instagram",
-    "1701424137b950888c"
+    "1701424137b950888c",
+    "0589a397-3871-40ff-b87a-e568a9ac963e"
   ]
 }
