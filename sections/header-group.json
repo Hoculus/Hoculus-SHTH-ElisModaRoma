@@ -38,7 +38,7 @@
       "settings": {
         "autoplay_enabled": true,
         "autoplay_delay": 4,
-        "color_background": "#e30f7b",
+        "color_background": "#ff0164",
         "color_text": "#ffffff"
       }
     },
