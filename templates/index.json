@@ -108,8 +108,8 @@
           "type": "collection",
           "settings": {
             "show_view_all": true,
-            "collection": "",
-            "collection_name": ""
+            "collection": "christmas-time-🎄",
+            "collection_name": "Collezione Natale2023"
           }
         },
         "1977facf-6506-44f2-bdef-5c59b8aa2588": {
@@ -656,7 +656,7 @@
         "collection_listing_aspect_ratio": "square",
         "label_style": "overlay",
         "overlay_title_background_style": "gradient",
-        "overlay_text_color": "#fff",
+        "overlay_text_color": "#ffffff",
         "overlay_title_background": "#000000",
         "enable_animation": true,
         "divider_style": "none",
