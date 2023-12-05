@@ -36,7 +36,7 @@
         "desktop_height": 50,
         "mobile_height": 50,
         "image": "shopify:\/\/shop_images\/BANNER_BLACK_FRIDAY_DESKTOP_800de08f-a6a1-42f6-be39-218c3e6a1905.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Wireframe_-_1_6cde06ed-3fd5-4651-89de-d68871fc9514.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Wireframe_-_2_bbc815cc-baa8-4e1f-8ea7-fcdea8455896.jpg",
         "focal_point": "image_presentation",
         "mobile_focal_point": "center",
         "media_link": "",
@@ -49,7 +49,7 @@
         "color_overlay_gradient": "",
         "overlay_opacity": 0,
         "enable_animation": true,
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "c117b260-1e5f-4a62-b3da-1b87106f0939": {
