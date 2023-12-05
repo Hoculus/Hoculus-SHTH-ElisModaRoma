@@ -105,7 +105,7 @@
         "mobile_logo_width": 100,
         "menu": "hoculus-main-men",
         "secondary_menu": "",
-        "enable_transparent_on_home": true,
+        "enable_transparent_on_home": false,
         "enable_transparent_template_list": "",
         "color_text_transparent": "#000000",
         "color_count_transparent": "#ffffff"
