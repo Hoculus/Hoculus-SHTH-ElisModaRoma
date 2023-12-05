@@ -43,7 +43,7 @@
         "text_position": "flex-start_center",
         "text_position_mobile": "center_center",
         "text_color": "#ffffff",
-        "button_background_color": "#ffffff",
+        "button_background_color": "#e4107c",
         "button_text_color": "#ffffff",
         "color_overlay": "#000000",
         "color_overlay_gradient": "",
