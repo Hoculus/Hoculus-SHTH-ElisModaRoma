@@ -114,6 +114,7 @@
         },
         "1977facf-6506-44f2-bdef-5c59b8aa2588": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "show_view_all": true,
             "collection": "black-friday-sale💣",
@@ -136,6 +137,34 @@
         "mobile_columns": "2",
         "enable_animation": true,
         "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "0589a397-3871-40ff-b87a-e568a9ac963e": {
+      "type": "collection-list-slider",
+      "settings": {
+        "heading": "Guardaroba",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "columns": "3",
+        "mobile_columns": "2",
+        "collection_list": [
+          "giacca",
+          "gonne-pantaloncini",
+          "maglioni-felpe",
+          "pantaloni-e-jeans",
+          "scarpe",
+          "t-shirt-bluse-camicie-top",
+          "vestiti"
+        ],
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
@@ -634,40 +663,13 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
-    },
-    "0589a397-3871-40ff-b87a-e568a9ac963e": {
-      "type": "collection-list-slider",
-      "settings": {
-        "heading": "Guardaroba",
-        "subheading": "",
-        "link": "",
-        "link_text": "",
-        "columns": "3",
-        "mobile_columns": "2",
-        "collection_list": [
-          "giacca",
-          "gonne-pantaloncini",
-          "maglioni-felpe",
-          "pantaloni-e-jeans",
-          "scarpe",
-          "t-shirt-bluse-camicie-top",
-          "vestiti"
-        ],
-        "collection_listing_aspect_ratio": "square",
-        "label_style": "overlay",
-        "overlay_title_background_style": "gradient",
-        "overlay_text_color": "#ffffff",
-        "overlay_title_background": "#000000",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
     }
   },
   "order": [
     "16558445044f80743b",
     "c117b260-1e5f-4a62-b3da-1b87106f0939",
     "f2116490-eb25-4a67-a34c-2551ea3b41cc",
+    "0589a397-3871-40ff-b87a-e568a9ac963e",
     "16549177944ec2347e",
     "16548772614c49ba39",
     "2109e734-38bb-45b3-a7fe-5d11c5e69b9e",
@@ -679,7 +681,6 @@
     "1655855558c1ac2348",
     "d71df2af-ba99-428a-9772-57ebe99ef94d",
     "pina-instagram",
-    "1701424137b950888c",
-    "0589a397-3871-40ff-b87a-e568a9ac963e"
+    "1701424137b950888c"
   ]
 }
