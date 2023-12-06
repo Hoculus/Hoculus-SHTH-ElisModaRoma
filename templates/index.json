@@ -6,8 +6,8 @@
         "d0cd2366-7930-4809-80d7-2b38d2d4fb07": {
           "type": "heading",
           "settings": {
-            "title": "Emozioni uniche, look irresistibili.",
-            "heading_font_class": "fs-heading-display-2"
+            "title": "Regali unici per un natale alla moda",
+            "heading_font_class": "fs-heading-display-3"
           }
         },
         "8a49de45-4784-4f5d-adcf-b87e81e76548": {
@@ -35,21 +35,21 @@
         "image_aspect": "custom",
         "desktop_height": 50,
         "mobile_height": 50,
-        "image": "shopify:\/\/shop_images\/Hero_ElisModa.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Hero_mobile.jpg",
+        "image": "shopify:\/\/shop_images\/BANNER_BLACK_FRIDAY_DESKTOP_800de08f-a6a1-42f6-be39-218c3e6a1905.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Wireframe_-_2_bbc815cc-baa8-4e1f-8ea7-fcdea8455896.jpg",
         "focal_point": "image_presentation",
         "mobile_focal_point": "center",
         "media_link": "",
-        "text_position": "center_center",
-        "text_position_mobile": "center_center",
-        "text_color": "#390099",
-        "button_background_color": "#390099",
+        "text_position": "flex-start_center",
+        "text_position_mobile": "center_flex-start",
+        "text_color": "#ffffff",
+        "button_background_color": "#ff0164",
         "button_text_color": "#ffffff",
         "color_overlay": "#000000",
         "color_overlay_gradient": "",
         "overlay_opacity": 0,
         "enable_animation": true,
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "c117b260-1e5f-4a62-b3da-1b87106f0939": {
@@ -106,6 +106,7 @@
         },
         "d23c81df-6189-487a-b311-f964be4184e0": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "show_view_all": true,
             "collection": "christmas-time-🎄",
@@ -114,6 +115,7 @@
         },
         "1977facf-6506-44f2-bdef-5c59b8aa2588": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "show_view_all": true,
             "collection": "",
@@ -136,6 +138,34 @@
         "mobile_columns": "2",
         "enable_animation": true,
         "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "0589a397-3871-40ff-b87a-e568a9ac963e": {
+      "type": "collection-list-slider",
+      "settings": {
+        "heading": "Guardaroba",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "columns": "3",
+        "mobile_columns": "2",
+        "collection_list": [
+          "giacca",
+          "gonne-pantaloncini",
+          "maglioni-felpe",
+          "pantaloni-e-jeans",
+          "scarpe",
+          "t-shirt-bluse-camicie-top",
+          "vestiti"
+        ],
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
@@ -668,6 +698,7 @@
     "16558445044f80743b",
     "c117b260-1e5f-4a62-b3da-1b87106f0939",
     "f2116490-eb25-4a67-a34c-2551ea3b41cc",
+    "0589a397-3871-40ff-b87a-e568a9ac963e",
     "16549177944ec2347e",
     "0589a397-3871-40ff-b87a-e568a9ac963e",
     "16548772614c49ba39",
