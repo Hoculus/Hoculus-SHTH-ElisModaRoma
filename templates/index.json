@@ -24,12 +24,19 @@
             "link_text": "Scopri i prodotti",
             "button_style": "btn--primary"
           }
+        },
+        "ca75c40f-06bc-45c9-881b-cc411eb6ae79": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
         }
       },
       "block_order": [
         "d0cd2366-7930-4809-80d7-2b38d2d4fb07",
         "8a49de45-4784-4f5d-adcf-b87e81e76548",
-        "15c58a65-cec7-4639-8936-8e3534462aff"
+        "15c58a65-cec7-4639-8936-8e3534462aff",
+        "ca75c40f-06bc-45c9-881b-cc411eb6ae79"
       ],
       "settings": {
         "image_aspect": "custom",
@@ -106,11 +113,10 @@
         },
         "d23c81df-6189-487a-b311-f964be4184e0": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "show_view_all": true,
-            "collection": "christmas-time-🎄",
-            "collection_name": "Collezione Natale2023"
+            "collection": "idee-regalo-🎁",
+            "collection_name": "Idee regalo Natale2023"
           }
         },
         "1977facf-6506-44f2-bdef-5c59b8aa2588": {
