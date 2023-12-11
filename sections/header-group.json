@@ -8,15 +8,15 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "title": "<p>Ordina il tuo outfit della nostra collezione di Halloween: riceverai in omaggio un gadget a sorpresa!<\/p>",
-            "title_mobile": "<p>Ordina il tuo outfit della nostra collezione di Halloween: riceverai in omaggio un gadget a sorpresa!<\/p>",
+            "title": "<p>Spedizione<br\/>GRATIS per ordini SUPERIORI a € 69<\/p>",
+            "title_mobile": "<p>Spedizione<br\/>GRATIS per ordini SUPERIORI a € 69 <\/p>",
             "link": "shopify:\/\/collections\/halloween-collection-🎃👻"
           }
         },
         "announcement-bar-1": {
           "type": "announcement",
           "settings": {
-            "title": "<p>Contatti: <a href=\"https:\/\/wa.me\/3880944581\" target=\"_blank\" title=\"https:\/\/wa.me\/3880944581\">+39 339 5721830<\/a> e <a href=\"mailto:info@elismoda.it%20\">info@elismoda.it<\/a><\/p>",
+            "title": "<p>Contatti: <a href=\"https:\/\/wa.me\/3880944581\" target=\"_blank\" title=\"https:\/\/wa.me\/3880944581\">+39 339 5721830<\/a> e <a href=\"mailto:info@elismoda.it%20\">info@elismoda.it <\/a><\/p>",
             "title_mobile": "<p>Contatti<a href=\"tel:+393395721830\"> +39 339 5721830 <\/a>e <a href=\"mailto:info@elismoda.it%20\">info@elismoda.it<\/a><\/p>",
             "link": ""
           }
